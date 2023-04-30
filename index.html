@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="main.js">
+  <script src="https://kit.fontawesome.com/73197d0444.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-------------------header--------------------------->
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="logo1.jpg" class="logo">
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>UI/UX Designer
+        and a Web Developer
+      </p>
+      <h1>Hi, I'm <span>Ajay </span><br>Patil  from India </h1>
+    </div>
+  </div>
+
+</div>
+<!------------------about------------------>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="profile.jpg">
+      </div>
+      <div class="about-col-2">
+		<h1 class="">About Me</h1>
+		<p class="about-content">As a web developer, I have a passion for 
+	  creating visually appealing, functional, and 
+	  secure websites and web applications. With my 
+	  expertise in HTML, CSS, JavaScript, PHP, and 
+	  database technologies, I can develop powerful,
+	  high-performance websites and applications.
+	  On top of that, I am a problem solver, adept at testing 
+	and debugging web applications. I am confident that my 
+	skillset and experience can bring value to any organization.
+     </p>
+	 
+	 <div class="tab-titles">
+		<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+		
+		
+	 </div>
+	 <div class="tab-contents active-tab" id="skills">
+        <ul>
+            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+            <li><span>Web Development</span><br>Web/App Development</li>
+            <li><span>Python developer </span><br>Web apps Backend Developer</li>
+        </ul>
+	     
+	 </div> 
+
+	  
+	  </div>
+        
+    </div>
+  </div>
+</div>
+<!--------------------------skills------------------------------------>
+<div id="skills">
+    <div class="container">
+       <h1 class="sub-title"> My skills </h1>
+       <div class="skills-list">
+          <div>
+              <i class="fa-solid fa-laptop-code"></i>
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam porro excepturi veniam aperiam ipsa fugit inventore optio laboriosam quaerat perferendis enim dolorum odit amet, iusto nihil atque harum maiores dolores?</p>
+              <a href="#">Learn more</a>
+              
+          </div>
+             <div>
+              <i class="fa-solid fa-crop"></i>
+              <h2>UI/UX Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam porro excepturi veniam aperiam ipsa fugit inventore optio laboriosam quaerat perferendis enim dolorum odit amet, iusto nihil atque harum maiores dolores?</p>
+              <a href="#">Learn more</a>
+              
+          </div>
+             <div>
+              <i class="fa-brands fa-app-store" style="color: #ffffff;"></i>
+              <h2>App Design</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam porro excepturi veniam aperiam ipsa fugit inventore optio laboriosam quaerat perferendis enim dolorum odit amet, iusto nihil atque harum maiores dolores?</p>
+              <a href="#">Learn more</a>
+              
+          </div>
+           
+       </div>
+        
+    </div>
+</div>
+<!-------------------------portfolio--------------------------->
+<div id="portfolio">
+    <div class="container">
+       <h1 class="sub-title">My Work</h1>
+       <div class="worklist">
+           <div class="work">
+             <img src="my-work-1.jpg" >
+             <div class="layer">
+                 <h3>
+                     Social Media App
+                 </h3>
+                 <p>
+                     The app connects you to the talented people around the world. Download it from Play Store.
+                 </p>
+                 <a href=""><i class="fa-solid fa-up-right-from-square" style="color: #000000;"></i></a>
+             </div>
+            </div>
+            <div class="work">
+             <img src="my-work-2.jpg" >
+             <div class="layer">
+                 <h3>
+                     Music App
+                 </h3>
+                 <p>
+The app connects you to the talented people around the world. Download it from Play Store.                 </p>
+                 <a href=""><i class="fa-solid fa-up-right-from-square" style="color: #000000;"></i></a>
+             </div>
+            </div>
+            <div class="work">
+             <img src="my-work-3.png" >
+             <div class="layer">
+                 <h3>
+                     Online Shopping App
+                 </h3>
+                 <p>
+The app connects you to the talented people around the world. Download it from Play Store.                 </p>
+                 <a href=""><i class="fa-solid fa-up-right-from-square" style="color: #000000;"></i></a>
+             </div>
+            </div>
+       </div>
+       <a href="#"  class="btn">See More</a>
+        
+    </div>
+</div>
+<!---------------------------contact-------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <div class="contacts">
+                    <p><i class="fa-solid fa-paper-plane"></i>patilajaygangadhar@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-XXXXXXXXXX</p>
+                </div>
+                <div class="social-icons">
+                    <a href="https://instagram.com/only_mr.patil?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/patil-ajay-a66379206//"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/ajaypatil9876"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1qracROohgvc-YspHsqV7E2FbKzz8CjWT/view?usp=drivesdk" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="e-mail" name="E-mail" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit
+                    </button>
+                </form>
+                <span id="msg">
+                    
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+</body>
+</html>
